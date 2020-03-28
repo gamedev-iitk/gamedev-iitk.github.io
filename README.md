@@ -1,13 +1,8 @@
 ## About
 
-We're a small group of students passionate about creating video games. With improvements in technology, games are further pushing boundaries and redefining themselves. We're interested in testing these limits and continuously exploring where games can take us as an art form. We’re about creating games and the sheer knowledge one would gain by working on a game would be beneficial in all spheres of life.
+We're passionate about creating video games. With improvements in technology, games are further pushing boundaries and redefining themselves. We're interested in testing these limits and continuously exploring where games can take us as an art form. We’re about creating games and the sheer knowledge one would gain by working on a game would be beneficial in all spheres of life.
 
 [Facebook](https://www.facebook.com/gamedev.iitk/) \| [Discord](https://discord.gg/pThvGHs) \| [GitHub](https://github.com/gamedev-iitk/)
-
-## Projects
-
-Some projects that we're working on or have worked on in the past.
-
 
 
 ## Activities
