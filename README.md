@@ -28,3 +28,7 @@ Notes to help people start creating 3D assets for games with Blender. Mainly ref
 ### The Indefinite Break Jam
 
 A 72-hour gamejam in the COVID-19 break to do something productive with the free time at home and create a fun game. The jam was hosted on itch.io and the page can be found [here](https://itch.io/jam/iitk-game-jam).
+
+### Summer Tower Defense
+
+We are currently working on a fantasy tower defense game with Unity.
