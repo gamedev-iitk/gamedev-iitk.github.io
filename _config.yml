@@ -1,15 +1,75 @@
-title: >- 
-  Game Development Society,<br />
-  IIT Kanpur
-email: #
-description: >- # this means to ignore newlines until "baseurl:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: #
-github_username:  gamedev-iitk
+encoding: utf-8 # Make sure the encoding is right
+lang: en-GB # Set the site language
+title: "gamedev-iitk" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/logo_black.png" # Site logo, also used in jekyll-seo-tag
+description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+url: "https://gamedev-iitk.github.io" # Site url, also used in jekyll-seo-tag
+baseurl: ""
+repo: "https://github.com/gamedev-iitk/gamedev-iitk.github.io"
+email: "gamedeviitk@gmail.com"
+css_inline: true
 
-# Build settings
 markdown: kramdown
-theme: jekyll-theme-slate
+remote_theme: daviddarnes/alembic
 plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-default-layout
   - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+
+exclude:
+- README.md
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
+- screenshot.png
+- LICENSE
+- CNAME
+- Gemfile
+- Gemfile.lock
+- alembic-jekyll-theme.gemspec
+- .jekyll-cache
+
+paginate: 4
+paginate_path: blog/page:num
+social:
+  name: Gamedev IITK
+  links:
+    - https://www.facebook.com/gamedev.iitk/
+    - https://github.com/gamedev-iitk
+
+sass:
+  style: compressed
+permalink: pretty
+excerpt_separator: <!-- more -->
+timezone: Asia/Kolkata
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: "/assets/default-social-image.png" # Default image for sharing
+
+# 9. Site navigation
+navigation_header:
+- title: Home
+  url: /
+- title: Devlog
+  url: /blog/
+
+social_links:
+  facebook: https://facebook.com/gamedev.iitk
+  GitHub: https://github.com/gamedev-iitk
+  RSS: /feed.xml
+
+sharing_links:
+  Twitter: "#0d94e7"
+  facebook: "#3B5998"
+  Email: true
+
