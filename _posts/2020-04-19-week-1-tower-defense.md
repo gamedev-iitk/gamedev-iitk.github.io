@@ -1,8 +1,12 @@
 ---
-title: "Week 1: Starting the project"
+title: "Week 1: Starting "
 categories:
 - Dev
 feature_image: "https://picsum.photos/2560/600?image=872"
+images:
+  - src: /assets/img/wolf1.png
+  - src: /assets/img/shark_wire.png
+  - src: /assets/img/tower2.png
 ---
 
 We've started working on a new project this summer. This is the first entry in a series of posts to record our progress. A lot has happened this week, and things are off to an excellent start. Let's dive into it.
@@ -11,11 +15,15 @@ We've started working on a new project this summer. This is the first entry in a
 
 ## Direction
 
-We decided fairly quickly what kind of a game we want. We wanted a simple strategy "tower-defense" sort of a game in a fantasy setting and bright cartoony art. What we couldn't decide was precisely how we were going to get that art style. Even more than that, the art we planned was more of a "thought" rather than a concrete concept. And then we found a tutorial to create a "toon shader" with Blender. That was it. That is what we want. With bold outlines and flat surfaces, it gave a hand-painted feel to the entire scene, almost like using ink and brush. That was also when we finally decided the setting for the game. With art like this, you either think Borderlands or calligraphy. We chose calligraphy. The game will be set against a backdrop of Japanese fantasy and folklore. Here are some very initial designs that we've done this week.
+We decided fairly quickly what kind of a game we want. We wanted a simple strategy "tower-defense" sort of a game in a fantasy setting and bright cartoony art. What we couldn't decide was precisely how we were going to get that art style. Even more than that, the art we planned was more of a "thought" rather than a concrete concept. And then we found a tutorial to create a "toon shader" with Blender. That was it. That is what we want. With bold outlines and flat surfaces, it gave a hand-painted feel to the entire scene, almost like using ink and brush. Here are some very initial designs that we've done this week.
 
-![wolf1.png](/assets/img/wolf1.png)
+{% include slideshow.html %}
 
-![cannon_tower.jpg](/assets/img/cannon_tower.jpg)
+And here is a run animation for the wolf.
+
+![wolf_run](/assets/img/wolf_run.gif)
+
+This was also when we finally decided the setting for the game. With art like this, you either think Borderlands or calligraphy. We chose calligraphy. The game will be set against a backdrop of Japanese fantasy and folklore.
 
 ## Gameplay Code
 
