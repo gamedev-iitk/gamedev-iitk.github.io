@@ -1,5 +1,5 @@
 ---
-title: "Week 3: Enemies"
+title: "Update #3: Enemies"
 categories:
 - Dev
 feature_image: "https://picsum.photos/2560/600?image=872"

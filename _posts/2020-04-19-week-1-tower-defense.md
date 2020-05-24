@@ -1,5 +1,5 @@
 ---
-title: "Week 1: Starting The Project"
+title: "Update #1: Starting The Project"
 categories:
 - Dev
 feature_image: "https://picsum.photos/2560/600?image=872"
